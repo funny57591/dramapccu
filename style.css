@@ -26,6 +26,11 @@ a{
     margin: 40px 0;
     display: flex;
     align-items: center;
+
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-clip: content-box;
+    background-size: cover;
 }
 .box_1 p{
     font-size: 1.8rem !important;
@@ -36,6 +41,25 @@ a{
     text-shadow: 5px;
     background-color: rgba(28, 28, 28, 0.7);
     color: white;    
+}
+
+.box_1_1{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/249930248.jpg");      
+}
+.box_1_2{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/_MG_9045.jpg");
+}
+.box_1_3{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/1064707.jpg");
+}
+.box_1_4{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/_MG_9040.jpg");
+}
+.box_1_5{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/DSC_9644(1).jpg");
+}
+.box_1_6{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/DSC_9644(1).jpg");
 }
 
 /* cell phone devices */
