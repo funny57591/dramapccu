@@ -7,7 +7,7 @@ a{
     /* background-color: rgb(249, 136, 136); */
     max-width: 1170px;
     margin: 0 auto;
-    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif !important;
 }
 section{
     margin-bottom: 20px;
@@ -15,5 +15,5 @@ section{
 hr{
     margin-bottom: 50px;
     width: 95%;
-    border: 0.2px solid rgb(230, 230, 230);
+    border: 0.5px solid rgb(230, 230, 230);
 }
