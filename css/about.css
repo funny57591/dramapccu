@@ -60,19 +60,14 @@ hr{
 }
 
 @media screen and (min-width: 576px) and (max-width:767px) {
+
     #space{
-        flex-wrap: wrap;
+        flex-direction: column;        
     }
     .figure{
-        margin: 0 10px;
-    }
-    .figure{
-        width: 35%;
+        width: 350px;
         margin: 0 auto;
         margin-bottom: 20px;
-    }
-    .figure:nth-child(3){
-        margin-right: calc(53%);
     }
 }
 
@@ -86,9 +81,9 @@ hr{
         margin: 0 10px;
     }
     .figure{
-        width: 35%;
+        width: 36%;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 23px;
     }
     .figure:nth-child(3){
         margin-right: calc(54.4%);
