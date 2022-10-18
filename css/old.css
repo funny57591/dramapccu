@@ -37,6 +37,11 @@ hr{
 .figure_4{background-image: url('https://dta.pccu.edu.tw/var/file/229/1229/img/841327069.jpg');}
 .figure_5{background-image: url('https://dta.pccu.edu.tw/var/file/229/1229/img/159468712.jpg');}
 
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .intro h4{
     margin: 0;
     margin-top: 20px;
