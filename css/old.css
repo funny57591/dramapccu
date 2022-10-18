@@ -10,6 +10,10 @@ a{
     font-family: 'Noto Sans TC', sans-serif !important;
 }
 
+h4{
+    font-weight: 600;
+}
+
 .card{
     display: flex;
     flex-direction: row;
