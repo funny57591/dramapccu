@@ -8,6 +8,7 @@
 <body>
 <div id="body_div">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script>
         function dynamicLoadCss(url) {
             var head = document.getElementsByTagName('head')[0];
@@ -28,7 +29,7 @@
                 <p>關於戲劇</p>            
             </div>
         </a>
-        <a href="https://dta.pccu.edu.tw/p/404-1229-108891.php">
+        <a href="https://futurestudent.pccu.edu.tw/group/%E5%85%A5%E5%AD%B8%E7%AE%A1%E9%81%93/%E5%AD%B8%E5%A3%AB%E7%8F%AD?fbclid=IwAR0-CPRJG6s4yZ4GyMJiW2EIhAdhnZsrFwhbfnbIgr_3OvpynzyARbEH8-Q">
             <div class="box_1 box_1_2">
                 <p>入學管道</p>                
             </div>
@@ -54,6 +55,17 @@
             </div>
         </a>
     </div>
+    <script>
+        $(function(){
+            $('#Box a').hover(function(){
+                $(this).children().addClass('box_hover')
+                $(this).find('p').css({'height':'100%','line-height':'300px'})
+            },function(){
+                $(this).children().removeClass('box_hover')
+                $(this).find('p').css({'height':'60px','line-height':'60px'})
+            })
+        })
+    </script>
 </div>
 </body>
 </html>

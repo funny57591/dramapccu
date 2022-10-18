@@ -32,6 +32,13 @@ a{
     background-clip: content-box;
     background-size: cover;
 }
+
+.box_hover{
+    transition: 0.8s;
+    transform: scale(1.1);
+    
+    /* background-size: 110%; */
+}
 .box_1 p{
     font-size: 1.8rem !important;
     width: 100%;
@@ -40,7 +47,8 @@ a{
     text-align: center;
     text-shadow: 5px;
     background-color: rgba(28, 28, 28, 0.7);
-    color: white;    
+    color: white;  
+    transition: all 0.5s;  
 }
 
 .box_1_1{
@@ -56,7 +64,7 @@ a{
     background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/_MG_9040.jpg");
 }
 .box_1_5{
-    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/DSC_9644(1).jpg");
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/P1012072(1).jpg");
 }
 .box_1_6{
     background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/DSC_9644(1).jpg");
