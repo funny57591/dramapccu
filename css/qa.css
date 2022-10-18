@@ -9,3 +9,66 @@ a{
     margin: 0 auto;
     font-family: 'Noto Sans TC', sans-serif !important;
 }
+#qa{
+    display: flex;
+    margin-top: 20px;
+}
+
+.circle{
+    transition: all 0.5s;
+    width: 150px;
+    height: 150px;
+    margin: 0 20px;
+    text-align: center;
+    border-radius: 150px;
+    background-color: #EFBB24;
+    color: #6F3381; 
+    cursor: pointer;     
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center
+}
+.circle a{
+    display: block;
+    width: 100%;
+    padding-bottom: 8px;
+    transform: scale(1.2);
+}
+
+.a_line{
+    transition: all 0.5s;
+    transform: scale(1.2);
+}
+
+/* cell phone devices */
+@media screen and (max-width: 576px) {
+    .circle{
+        width: 130px;
+        height: 130px;
+    }
+    .circle a{
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:767px) {
+    .circle{
+        width: 130px;
+        height: 130px;
+    }
+    .circle a{
+        transform: scale(1.1);
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width:960px) {
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 961px) {
+
+    
+}

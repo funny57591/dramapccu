@@ -72,7 +72,7 @@ hr{
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) and (max-width:1160px) {
+@media screen and (min-width: 768px) and (max-width:960px) {
     #space{
         flex-wrap: wrap;
         justify-content: space-between;
@@ -91,7 +91,7 @@ hr{
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 961px) {
 
     
 }
