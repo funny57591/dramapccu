@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+a{
+    text-decoration: none;
+}
+
+#body_div{
+    /* background-color: rgb(249, 136, 136); */
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: rgb(120, 80, 80);
+}
+.map{
+    text-align: center;
+}
+#map_1{
+    width: 70%;
+}
+#map_2{
+    width: 70%;
+}
+
+/* cell phone devices */
+@media screen and (max-width: 576px) {
+    #map_1{
+        width: 100%;
+    }
+    #map_2{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:767px) {
+    #map_1{
+        width: 90%;
+    }
+    #map_2{
+        width: 90%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width:1160px) {
+    #map_1{
+        width: 80%;
+    }
+    #map_2{
+        width: 80%;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1170px) {
+
+    
+}
