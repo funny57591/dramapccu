@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+a{
+    text-decoration: none;
+}
+
+#body_div{
+    /* background-color: rgb(249, 136, 136); */
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif !important;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    transform: scale(0.93);
+}
+hr{
+    transform: scale(0.8);
+}
+.figure{
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url('https://dta.pccu.edu.tw/var/file/229/1229/img/834061245.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.figure_1{background-image: url('https://dta.pccu.edu.tw/var/file/229/1229/img/2325/805458286.jpg');}
+.figure_2{background-image: url('https://dta.pccu.edu.tw/var/file/229/1229/img/124946765.jpg');}
+.figure_3{background-image: url('https://dta.pccu.edu.tw/var/file/229/1229/img/834061245.jpg');}
+.figure_4{background-image: url('https://dta.pccu.edu.tw/var/file/229/1229/img/841327069.jpg');}
+.figure_5{background-image: url('https://dta.pccu.edu.tw/var/file/229/1229/img/159468712.jpg');}
+
+.intro h4{
+    margin: 0;
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+.intro p{
+    color: rgb(128, 128, 128);
+    text-align: center;
+}
+.description{
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description h4{
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+/* cell phone devices */
+@media screen and (max-width: 576px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        margin: 0 20px;
+    }
+    .description{
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:767px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro{
+        margin: 0 20px;
+    }
+    .description{
+        margin: 0 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width:1160px) {
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1170px) {
+
+    
+}
