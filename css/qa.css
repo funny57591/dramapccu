@@ -21,42 +21,42 @@ section{
     justify-content: space-around;
 }
 .sBox .s1_d:nth-of-type(1) .s1_dimg{
-    background: url("../image/沖繩.jpg");
+    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/881602814.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
 }
 .sBox .s1_d:nth-of-type(2) .s1_dimg{
-    background: url("../image/兩廳.jpg");
+    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/559823773.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
 }
 .sBox .s1_d:nth-of-type(3) .s1_dimg{
-    background: url("../image/北藝.jpg");
+    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/632542594.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
 }
 .sBox .s1_d:nth-of-type(4) .s1_dimg{
-    background: url("../image/48(大二)1 (2).jpg");
+    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/423026084.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
 }
 .sBox .s1_d:nth-of-type(5) .s1_dimg{
-    background: url("../image/南海.jpg");
+    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/919554037.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
 }
 .sBox .s1_d:nth-of-type(6) .s1_dimg{
-    background: url("../image/文化中心.jpg");
+    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/435815736.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,21 +99,21 @@ section{
     height: 300px;
 }
 .sbg_1{
-    background: url("../image/上戲.jpg");
+    background: url("https://raw.githubusercontent.com/funny57591/dramapccu/main/image/%E4%B8%8A%E6%88%B2.jpg");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     background-origin: content-box;
 }
 .sbg_2{
-    background: url("../image/Okuma_Auditorium (1).jpg");
+    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/Okuma_Auditorium(1).jpg");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     background-origin: content-box;
 }
 .sbg_3{
-    background: url("../image/雙聯.png");
+    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/983352293.png");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
