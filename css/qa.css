@@ -9,57 +9,122 @@ a{
     margin: 0 auto;
     font-family: 'Noto Sans TC', sans-serif !important;
 }
-#qa{
-    display: flex;
-    margin-top: 20px;
+hr{
+    width: 95%;
 }
-
-.circle{
-    transition: all 0.5s;
-    width: 150px;
-    height: 150px;
-    margin: 0 20px;
-    text-align: center;
-    border-radius: 150px;
-    background-color: #EFBB24;
-    color: #6F3381; 
-    cursor: pointer;     
+section{
+    margin-bottom: 3%;
+}
+.sBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sBox .s1_d:nth-of-type(1) .s1_dimg{
+    background: url("../image/沖繩.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+.sBox .s1_d:nth-of-type(2) .s1_dimg{
+    background: url("../image/兩廳.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+.sBox .s1_d:nth-of-type(3) .s1_dimg{
+    background: url("../image/北藝.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+.sBox .s1_d:nth-of-type(4) .s1_dimg{
+    background: url("../image/48(大二)1 (2).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+.sBox .s1_d:nth-of-type(5) .s1_dimg{
+    background: url("../image/南海.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+.sBox .s1_d:nth-of-type(6) .s1_dimg{
+    background: url("../image/文化中心.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+}
+.s1_d{
+    width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center
+    margin-bottom: 15px;
 }
-.circle a{
-    display: block;
-    width: 100%;
-    padding-bottom: 8px;
-    transform: scale(1.2);
+.s1_dimg{
+    height: 150px;
 }
 
-.a_line{
-    transition: all 0.5s;
-    transform: scale(1.2);
+.s1_dtxt{
+    margin-top: 10px;
+    text-align: center;
 }
-
-/* cell phone devices */
+.s2d{
+    display: flex;
+    justify-content: center;
+}
+.s2d div{
+    margin: 15px 20px;
+}
+.sdt{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sdt_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sbg{
+    width: 40%;
+    height: 300px;
+}
+.sbg_1{
+    background: url("../image/上戲.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-origin: content-box;
+}
+.sbg_2{
+    background: url("../image/Okuma_Auditorium (1).jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-origin: content-box;
+}
+.sbg_3{
+    background: url("../image/雙聯.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-origin: content-box;
+}
 @media screen and (max-width: 576px) {
-    .circle{
-        width: 130px;
-        height: 130px;
-    }
-    .circle a{
-        transform: scale(1.1);
-    }
+    
 }
 
 @media screen and (min-width: 576px) and (max-width:767px) {
-    .circle{
-        width: 130px;
-        height: 130px;
-    }
-    .circle a{
-        transform: scale(1.1);
-    }
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
