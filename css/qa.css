@@ -103,6 +103,10 @@ section{
     .s1d_group figure{
         width: 60%;
     }
+    .s1d_group figure figcaption{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
     .s2d{
         flex-direction: column;
         align-items: center;
@@ -119,6 +123,13 @@ section{
     }
     .s1d_group figure{
         width: 60%;
+    }
+    .s1d_group figure figcaption{
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    .s2 .s2d:nth-of-type(2){
+        flex-direction: column-reverse;
     }
     .s2d{
         flex-direction: column;
