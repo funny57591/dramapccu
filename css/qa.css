@@ -24,23 +24,26 @@ ol li{
     display: flex;
     justify-content: center;
 }
-
-.s1d_group figure img{
+.figure1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.s1d_group .figure1 img{
     display: block;
     width: 100%;
 }
-.s1d_group figure figcaption{
+.s1d_group .figure1 .figcaption1{
     margin-top: 10px;
     margin-bottom: 15px;
 }
-.s1d_group figure a{
+.s1d_group .figure1 a{
     transition: all 0.3s;
     display: inline-block;
     border: 1px solid #333;
     border-radius: 5px 5px;
     padding: 10px 25px;
 }
-.s1d_group figure a:hover{
+.s1d_group .figure1 a:hover{
     color: azure;
     background-color: #FFC408;
 }
@@ -92,20 +95,21 @@ section{
     background-origin: content-box;
 }
 @media screen and (max-width: 576px) {
-    .s1d_group figure a{
-        width: 80%;
-        text-align: center;
-    }
     .s1d_group{
         flex-direction: column;
         align-items: center;
     }
-    .s1d_group figure{
-        width: 60%;
+    .s1d_group .figure1{
+        width: 70%;
+        margin-top: 35px;
     }
-    .s1d_group figure figcaption{
+    .s1d_group .figure1 .figcaption1{
         margin-top: 20px;
         margin-bottom: 25px;
+    }
+    .s1d_group .figure1 a{
+        width: 85%;
+        text-align: center;
     }
     .s2d{
         flex-direction: column;
@@ -121,10 +125,11 @@ section{
         flex-direction: column;
         align-items: center;
     }
-    .s1d_group figure{
+    .s1d_group .figure1{
         width: 60%;
+        margin-top: 35px;
     }
-    .s1d_group figure figcaption{
+    .s1d_group .figure1 .figcaption1{
         margin-top: 20px;
         margin-bottom: 25px;
     }
@@ -142,12 +147,12 @@ section{
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width:960px) {
-    .s1d_group figure img{
-        transform: scale(1.2);
+    .s1d_group .figure1 img{
+        transform: scale(1.1);
         margin-top: 20px;
         margin-bottom: 30px;
     }
-    .s1d_group figure a{
+    .s1d_group .figure1 a{
         transform: scale(0.9);
     }    
     .sdt{
