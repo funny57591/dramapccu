@@ -11,71 +11,43 @@ a{
 }
 hr{
     width: 95%;
+    opacity: 0.8;
+    margin: 30px 0;
+}
+/* article{
+
+} */
+ol li{
+    margin: 10px 5px;
+}
+.s1d_group{
+    display: flex;
+    justify-content: center;
+}
+
+.s1d_group figure img{
+    display: block;
+    width: 100%;
+}
+.s1d_group figure figcaption{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.s1d_group figure a{
+    transition: all 0.3s;
+    display: inline-block;
+    border: 1px solid #333;
+    border-radius: 5px 5px;
+    padding: 10px 25px;
+}
+.s1d_group figure a:hover{
+    color: azure;
+    background-color: #FFC408;
 }
 section{
     margin-bottom: 3%;
 }
-.sBox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.sBox .s1_d:nth-of-type(1) .s1_dimg{
-    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/881602814.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-origin: content-box;
-}
-.sBox .s1_d:nth-of-type(2) .s1_dimg{
-    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/559823773.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-origin: content-box;
-}
-.sBox .s1_d:nth-of-type(3) .s1_dimg{
-    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/632542594.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-origin: content-box;
-}
-.sBox .s1_d:nth-of-type(4) .s1_dimg{
-    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/423026084.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-origin: content-box;
-}
-.sBox .s1_d:nth-of-type(5) .s1_dimg{
-    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/919554037.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-origin: content-box;
-}
-.sBox .s1_d:nth-of-type(6) .s1_dimg{
-    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/435815736.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-origin: content-box;
-}
-.s1_d{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-}
-.s1_dimg{
-    height: 150px;
-}
 
-.s1_dtxt{
-    margin-top: 10px;
-    text-align: center;
-}
 .s2d{
     display: flex;
     justify-content: center;
@@ -120,16 +92,59 @@ section{
     background-origin: content-box;
 }
 @media screen and (max-width: 576px) {
-    
+    .s1d_group figure a{
+        width: 80%;
+        text-align: center;
+    }
+    .s1d_group{
+        flex-direction: column;
+        align-items: center;
+    }
+    .s1d_group figure{
+        width: 60%;
+    }
+    .s2d{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sbg{
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width:767px) {
-    
+    .s1d_group{
+        flex-direction: column;
+        align-items: center;
+    }
+    .s1d_group figure{
+        width: 60%;
+    }
+    .s2d{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sbg{
+        width: 80%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width:960px) {
-    
+    .s1d_group figure img{
+        transform: scale(1.2);
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .s1d_group figure a{
+        transform: scale(0.9);
+    }    
+    .sdt{
+        width: 50%;
+    }
+    .sbg{
+        width: 50%;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
