@@ -111,6 +111,9 @@ section{
         width: 85%;
         text-align: center;
     }
+    .s2 .s2d:nth-of-type(2){
+        flex-direction: column-reverse;
+    }
     .s2d{
         flex-direction: column;
         align-items: center;
