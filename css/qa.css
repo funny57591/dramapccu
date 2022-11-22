@@ -94,6 +94,8 @@ section{
     background-size: cover;
     background-origin: content-box;
 }
+
+
 @media screen and (max-width: 576px) {
     .s1d_group{
         flex-direction: column;
