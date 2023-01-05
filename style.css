@@ -70,6 +70,10 @@ a{
     background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/DSC_9644(1).jpg");
 }
 
+#pageptlist{
+    visibility: hidden;
+}
+
 /* cell phone devices */
 @media screen and (max-width: 576px) {
     .box_1 p{
