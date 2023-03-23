@@ -4,10 +4,6 @@
     align-items: center;
 }
 
-.container1>div {
-    max-width: 700px;
-}
-
 .container1 h1 {
     text-align: center;
 }
