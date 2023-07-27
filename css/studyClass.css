@@ -18,6 +18,7 @@ li{
     position: relative;
     transition: all 0.2s;
     cursor: pointer;
+    color: black;
 }
 .btn::before{
     content: "";

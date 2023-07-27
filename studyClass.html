@@ -21,7 +21,7 @@
                     <li class="btn">必修科目表</li>
                     <li class="btn">修課相關規定</li>
                     <li class="btn">輔系雙主修規定</li>
-                    <li class="btn">學生手冊</li>
+                    <li class="btn">畢業規定</li>
                     <!-- <li class="btn">學士班課表</li> -->
                     <!-- <li class="btn">全校共同科目</li> -->
                     <!-- <li class="btn">轉學生</li> -->
@@ -47,8 +47,23 @@
                 this.style.boxShadow = 'none';
                 this.style.color = 'rgb(0, 0, 0)';
             });
-}
+        }
 
     </script>
+    <script>
+        function dynamicLoadCss(url) {
+          var head = document.getElementsByTagName("head")[0];
+          var mycss = document.createElement("link");
+          mycss.type = "text/css";
+          mycss.rel = "stylesheet";
+          mycss.href = url;
+          head.appendChild(mycss);
+        }
+        if (1 == 1) {
+          dynamicLoadCss(
+            "https://funny57591.github.io/dramapccu/css/studyClass.css"
+          );
+        }
+      </script>
 </body>
 </html>
