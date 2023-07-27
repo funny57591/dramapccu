@@ -2271,18 +2271,24 @@
             div1.classList.add('show');
             div2.classList.remove('show');
             div3.classList.remove('show');
+            div2.classList.add('fade');
+            div3.classList.add('fade');
         });
 
         document.getElementById('btnS02').addEventListener('click', function() {
             div2.classList.add('show');
             div1.classList.remove('show');
             div3.classList.remove('show');
+            div1.classList.add('fade');
+            div3.classList.add('fade');
         });
 
         document.getElementById('btnS03').addEventListener('click', function() {
             div3.classList.add('show');
             div1.classList.remove('show');
             div2.classList.remove('show');
+            div1.classList.add('fade');
+            div2.classList.add('fade');
         });
     </script>
 
