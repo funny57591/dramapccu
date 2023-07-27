@@ -6,11 +6,13 @@ a{
 .fade {
     transition: all 0.5s;  /* 這個數值可以根據你的需求調整 */
     opacity: 0;
-  }
+    display: none;
+}
   
 .show{
     transition: all 0.5s;
     opacity: 1;
+    display: block;
 }
 
 #body_div{
@@ -21,13 +23,12 @@ a{
 }
 .map{
     text-align: center;
-    position: relative;
-    height: 1000px;
+    /* position: relative; */
 }
 .map>div{
-    position: absolute;
-    right: 0;
-    left: 0;
+    /* position: absolute; */
+    /* right: 0; */
+    /* left: 0; */
 }
 #map_1{
     width: 70%;
