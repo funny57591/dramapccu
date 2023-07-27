@@ -38,9 +38,10 @@ li{
 @media screen and (max-width: 576px){
     .buttonG ul{
         flex-direction: column;  /* 將主軸方向改為列，讓元件縱向排列 */
+        align-items: center;
     }
-    .btn {
+    .buttonG .btn {
         width: 100%;  
-        margin: 15px auto;
+        margin: 15px 0;
     }
 }
