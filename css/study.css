@@ -3,6 +3,16 @@ a{
     text-decoration: none;
 }
 
+.fade {
+    transition: all 0.5s;  /* 這個數值可以根據你的需求調整 */
+    opacity: 0;
+  }
+  
+.show{
+    transition: all 0.5s;
+    opacity: 1;
+}
+
 #body_div{
     /* background-color: rgb(249, 136, 136); */
     max-width: 1170px;
@@ -11,12 +21,40 @@ a{
 }
 .map{
     text-align: center;
+    position: relative;
+}
+.map>div{
+    position: absolute;
+    right: 0;
+    left: 0;
 }
 #map_1{
     width: 70%;
 }
 #map_2{
     width: 70%;
+}
+.mainBtn{
+    margin-bottom: 30px;
+}
+.mainBtn ul{
+    display: flex;
+    flex-direction: row;
+}
+.btnS{
+    width: 33%;
+    text-align: center;
+    list-style: none;
+    background-color: beige;
+    margin: 0 20px;
+    padding: 20px 0;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btnS:hover{
+    color: rgb(123, 123, 255);
+    box-shadow: 0 0 8px rgba(3,3,3,0.5);
 }
 
 /* cell phone devices */
