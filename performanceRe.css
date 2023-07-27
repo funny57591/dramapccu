@@ -1,0 +1,47 @@
+.container1 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container1>div>div {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.flex_2 div{
+    width: 50%;
+}
+.flex_2 img{
+    width: 80%;
+}
+
+.container1 p {
+    font-family: 微軟正黑體;
+    font-size: 0.9em;
+}
+
+.container1 p strong {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 576px)  {
+    .flex_2{
+        flex-wrap: wrap;
+    }
+    .flex_2 div{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:767px) {
+
+}

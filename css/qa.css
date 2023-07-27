@@ -74,7 +74,7 @@ section{
     height: 300px;
 }
 .sbg_1{
-    background: url("https://raw.githubusercontent.com/funny57591/dramapccu/main/image/%E4%B8%8A%E6%88%B2.jpg");
+    background: url("https://dta.pccu.edu.tw/var/file/229/1229/img/275100213.jpg");
     background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
@@ -94,6 +94,8 @@ section{
     background-size: cover;
     background-origin: content-box;
 }
+
+
 @media screen and (max-width: 576px) {
     .s1d_group{
         flex-direction: column;
