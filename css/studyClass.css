@@ -1,0 +1,30 @@
+li{
+   list-style: none; 
+}
+.buttonG ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.btn{
+    width: calc(50% - 70px);
+    background-color:rgb(255, 252, 185);
+    background-color:rgb(228, 228, 228);
+    margin: 10px 20px;
+    padding: 15px 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    font-size:1.3em;
+    position: relative;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.btn::before{
+    content: "";
+    width: 3px;
+    height: 80%;
+    background-color: rgb(255, 202, 116);
+    position: absolute;
+    top: 6px;
+    left: 10px;    
+}

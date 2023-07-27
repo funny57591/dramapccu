@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>必修科目表</title>
+    <link rel="stylesheet" href="css/studyClass.css">
+    <style>
+        main{
+            max-width: 1170px;
+            margin: 0 auto;
+            /* background-color: aqua; */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="buttonG">
+                <ul>
+                    <li class="btn">必修科目表</li>
+                    <li class="btn">修課相關規定</li>
+                    <li class="btn">輔系雙主修規定</li>
+                    <li class="btn">學生手冊</li>
+                    <!-- <li class="btn">學士班課表</li> -->
+                    <!-- <li class="btn">全校共同科目</li> -->
+                    <!-- <li class="btn">轉學生</li> -->
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script>
+        // 選取所有的按鈕
+        var buttons = document.querySelectorAll('.btn');
+
+        // 對每一個按鈕添加事件監聽器
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener('mouseover', function() {
+                // 滑鼠滑入時，改變背景顏色和陰影
+                this.style.backgroundColor = 'rgb(200, 200, 200)'; // 深色
+                this.style.boxShadow = '5px 5px 10px rgba(0, 0, 0, 0.5)'; // 陰影
+                this.style.color = 'rgb(255, 252, 185)'; // 陰影
+            });
+            buttons[i].addEventListener('mouseout', function() {
+                // 滑鼠滑出時，恢復原來的背景顏色和移除陰影
+                this.style.backgroundColor = 'rgb(228, 228, 228)';
+                this.style.boxShadow = 'none';
+                this.style.color = 'rgb(0, 0, 0)';
+            });
+}
+
+    </script>
+</body>
+</html>
