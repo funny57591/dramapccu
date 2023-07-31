@@ -24,14 +24,15 @@ li{
 .box_12:nth-of-type(1) h1 ,.box_12:nth-of-type(1) h2{
     text-align: center;
 }
-.box_12:nth-of-type(1) h3{
+.box_12:nth-of-type(1) h3 a{
+    display: block;
     color: rgb(32, 151, 255);
     text-align: center;
     margin-top: 60px;
     cursor: pointer;
     transition: all 0.3s;
 }
-.box_12:nth-of-type(1) h3:hover{
+.box_12:nth-of-type(1) h3 a:hover{
     color: rgb(13, 101, 254);
 }
 .timg{
