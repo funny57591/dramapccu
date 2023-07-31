@@ -123,5 +123,18 @@ Master of Drama, Graduate School of Arts, Chinese Culture University
             </div>
         </div>
     </main>
+    <script>
+        function dynamicLoadCss(url) {
+            var head = document.getElementsByTagName('head')[0];
+            var mycss = document.createElement('link');
+            mycss.type = 'text/css';
+            mycss.rel = 'stylesheet';
+            mycss.href = url;
+            head.appendChild(mycss);
+        }
+        if (1 == 1) {
+            // dynamicLoadCss("https://funny57591.github.io/dramapccu/cccdta/teach.css");
+        }
+    </script>
 </body>
 </html>
