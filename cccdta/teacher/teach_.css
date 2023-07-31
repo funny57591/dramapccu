@@ -62,5 +62,13 @@ li{
     }
 }
 @media screen and (min-width: 576px) and (max-width:767px) {
-
+    .box_12:nth-of-type(1){
+        width: 50%;
+    }
+    .box_12:nth-of-type(2){
+        width: 50%;
+    }
+    .timg{
+        margin-bottom: -20px;
+    }
 }
