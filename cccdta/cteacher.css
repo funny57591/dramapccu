@@ -1,28 +1,31 @@
-.area {
-    width: 100%;
+main{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1170px;
+    background-color:aqua;
+}
+.cardGroup{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
-    box-sizing: border-box;
+    justify-content: center;
 }
-.card {
-    flex: 0 0 calc(25% - 20px);
-    margin: 10px;
-    box-sizing: border-box;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: 0.3s;
+.content{    
+    height: 100px;
 }
-.card:hover {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+.card:nth-of-type(1){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/1692/206540103.jpg');
 }
-.card img {
-    width: 100%;
-    height: auto;
+.card:nth-of-type(2){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/1692/206540103.jpg');
 }
-.card-body {
-    padding: 10px;
+.card:nth-of-type(3){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/1692/206540103.jpg');
+}
+.card{
+    background-position:top center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 30%;
+    height: 300px;
 }
