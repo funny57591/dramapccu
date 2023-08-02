@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>必修科目表</title>
+    <link rel="stylesheet" href="css/studyClass.css" />
+    <style>
+      main {
+        max-width: 1170px;
+        margin: 0 auto;
+        /* background-color: aqua; */
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+
+        <div class="buttonG">
+          <ul>
+            <li class="btn" id="btn01">
+              <a href="https://dta.pccu.edu.tw/p/404-1229-117627.php?Lang=zh-tw">Introduction</a>
+            </li>
+            <li class="btn" id="btn02">
+                <a href="https://dta.pccu.edu.tw/p/404-1229-117628.php?Lang=zh-tw">Features of education</a>
+            </li>
+            <li class="btn" id="btn03">
+                <a href="https://dta.pccu.edu.tw/p/404-1229-117629.php?Lang=zh-tw">Faculty</a>
+            </li>
+            <li class="btn" id="btn04">
+                <a href="https://dta.pccu.edu.tw/p/404-1229-117630.php?Lang=zh-tw">Courses</a>
+            </li>
+            <li class="btn" id="btn05">
+                <a href="https://dta.pccu.edu.tw/p/404-1229-117631.php?Lang=zh-tw">Scholarships</a>
+            </li>
+            <li class="btn" id="btn06">
+                <a href="https://dta.pccu.edu.tw/p/404-1229-117632.php?Lang=zh-tw">Internship and industry-university cooperation</a>
+            </li>
+            <li class="btn" id="btn07">
+                <a href="https://dta.pccu.edu.tw/p/404-1229-117633.php?Lang=zh-tw">Future</a>
+            </li>
+            <li class="btn" id="btn08">
+                <a href="https://dta.pccu.edu.tw/p/404-1229-117634.php?Lang=zh-tw">Highlight</a>
+            </li>
+          </ul>
+        </div>
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script><script>
+        $(function(){
+            $('h3').css('text-align','center')
+            $('#classMap').css({
+                'cursor': 'pointer',
+                'color': '#2EA9DF'
+            })
+            $('#classMap').click(function(){
+                window.open("http://learningmap.pccu.edu.tw/"); 
+            })
+            $('.module-sublist').css('color','#fff')
+            $('.module-sublist').hide()
+        })
+    </script>
+    <script>
+      // 選取所有的按鈕
+      var buttons = document.querySelectorAll(".btn");
+
+      // 對每一個按鈕添加事件監聽器
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener("mouseover", function () {
+          // 滑鼠滑入時，改變背景顏色和陰影
+          this.style.backgroundColor = "rgb(200, 200, 200)"; // 深色
+          this.style.boxShadow = "5px 5px 10px rgba(0, 0, 0, 0.5)"; // 陰影
+          this.style.color = "rgb(255, 252, 185)"; // 陰影
+          var aElement = this.querySelector('a');
+            if(aElement) {
+                aElement.style.color = "rgb(255, 252, 185)"; // 設定顏色
+            }
+
+        });
+        buttons[i].addEventListener("mouseout", function () {
+          // 滑鼠滑出時，恢復原來的背景顏色和移除陰影
+          this.style.backgroundColor = "rgb(228, 228, 228)";
+          this.style.boxShadow = "none";
+          this.style.color = "rgb(0, 0, 0)";
+          var aElement = this.querySelector('a');
+            if(aElement) {
+                aElement.style.color = "rgb(0, 0, 0)"; // 設定顏色
+            }
+        });
+      }
+
+    </script>
+    <script>
+        function dynamicLoadCss(url) {
+          var head = document.getElementsByTagName("head")[0];
+          var mycss = document.createElement("link");
+          mycss.type = "text/css";
+          mycss.rel = "stylesheet";
+          mycss.href = url;
+          head.appendChild(mycss);
+        }
+        if (1 == 1) {
+          dynamicLoadCss(
+            "https://funny57591.github.io/dramapccu/css/studyClass.css"
+          );
+        }
+      </script>
+  </body>
+</html>
