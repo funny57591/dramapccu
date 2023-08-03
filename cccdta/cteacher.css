@@ -63,26 +63,26 @@ section:nth-of-type(1){
 }
 
 .card:nth-of-type(1){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/1692/206540103.jpg');
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/114524015.jpg');
 }
 .card:nth-of-type(2){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/391995316.png');
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/283551604.png');
 }
 .card:nth-of-type(3){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/292295677.png');
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/435046511.png');
     background-position:center center;
 }
 .cardGroup2 .card:nth-of-type(1){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/459714058.png');
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/380752225.png');
 }
 .cardGroup2 .card:nth-of-type(2){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/452368097.png');
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/300447515.png');
 }
 .cardGroup2 .card:nth-of-type(3){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/238901100.png');
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/196345992.png');
 }
 .cardGroup2 .card:nth-of-type(4){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/321666569.jpg');
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/308084824.jpg');
     background-position:center center;
 }
 .cardGroup2 .card{
