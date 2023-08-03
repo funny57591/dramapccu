@@ -2,30 +2,240 @@ main{
     margin: 0 auto;
     padding: 0;
     max-width: 1170px;
-    background-color:aqua;
+    /* background-color:aqua; */
 }
-.cardGroup{
+section{
+    margin: 10px 0;
+}
+section:nth-of-type(1){
+    margin-bottom: 50px;
+}
+
+/* 專任老師區  */
+.cardGG{
+    padding: 20px 40px;
+}
+.cardGroup1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
-.content{    
-    height: 100px;
+.cardGroup2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.card:nth-of-type(1){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/1692/206540103.jpg');
+.content{  
+    background-color: rgba(0,0,0,0.6);  
+    position:absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    color: aliceblue;
+    transform: translateY(100%);
+    transition: transform 0.5s ease-out; 
 }
-.card:nth-of-type(2){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/1692/206540103.jpg');
+.content h3{    
+    text-align: center;
+    font-size: 1.5em;
 }
-.card:nth-of-type(3){
-    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/1692/206540103.jpg');
+.content p{
+    text-align: center;
+    font-weight:bold;
+    color: orange;
+}
+.content p:nth-of-type(2) a{
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: 1.1em;
 }
 .card{
     background-position:top center;
     background-repeat: no-repeat;
     background-size:cover;
-    width: 30%;
-    height: 300px;
+    width: 33.333%;
+    height: 320px;
+    position: relative;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.card:nth-of-type(1){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/1692/206540103.jpg');
+}
+.card:nth-of-type(2){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/391995316.png');
+}
+.card:nth-of-type(3){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/292295677.png');
+    background-position:center center;
+}
+.cardGroup2 .card:nth-of-type(1){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/459714058.png');
+}
+.cardGroup2 .card:nth-of-type(2){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/452368097.png');
+}
+.cardGroup2 .card:nth-of-type(3){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/238901100.png');
+}
+.cardGroup2 .card:nth-of-type(4){
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/321666569.jpg');
+    background-position:center center;
+}
+.cardGroup2 .card{
+    width: 25%;
+}
+
+/* 兼任老師區 */
+.teacherG{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tBox{
+    width: calc(25% - 40px);
+    height: 200px;
+    margin: 20px 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.tbg{
+    width: 100%;
+    height: 100%;
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+}
+.tTxt{
+    width: 100%;
+    background-color: #ffffff70;
+    position: absolute;
+    bottom: 0px;
+    padding:8px 0;
+    text-shadow:0px 1.8px 3px #000000;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-out; 
+}
+.tTxt p{
+    text-align: center;
+    margin: 5px 0;
+}
+.tTxt p:nth-of-type(1){
+    color: aliceblue;
+}
+.tTxt p:nth-of-type(2){
+    color: rgb(242, 128, 46);
+}
+.tTxt p:nth-of-type(3){
+    color: rgb(175, 221, 95);
+}
+
+.tBox:nth-of-type(1) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/368836204.png');
+}
+.tBox:nth-of-type(2) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/400467855.png');
+    background-position:center;
+}
+.tBox:nth-of-type(3) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/801369957.png');
+}
+.tBox:nth-of-type(4) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/292547365.png');
+}
+.tBox:nth-of-type(5) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/889699684.png');
+    background-position: center;
+}
+.tBox:nth-of-type(6) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/690966606.png');
+}
+.tBox:nth-of-type(7) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/622081476.png');
+}
+.tBox:nth-of-type(8) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/160239871.png');
+    background-position: center;
+}
+.tBox:nth-of-type(9) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/121798957.png');
+}
+.tBox:nth-of-type(10) .tbg{
+    background-image: url('https://crmdta.pccu.edu.tw/var/file/230/1230/img/286546851.png');
+}
+
+
+@media screen and (max-width: 576px)  {
+    .cardGroup1{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cardGroup2{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card{
+        width: 100% !important;
+        margin: 20px 0;
+    }
+    /* 兼任老師區 */
+    .tBox{
+        width: 70%;
+        height: 200px;
+        background-color: #8e8e8e;
+        margin: 20px auto;
+        position: relative;
+    }
+    .tbg{
+        background-size: cover;
+    }
+    .tBox:nth-of-type(1) .tbg{
+        background-position-y: -50px;
+    }
+    .tBox:nth-of-type(2) .tbg{
+        background-position-y: -50px;
+    }
+    .tBox:nth-of-type(4) .tbg{
+        background-position-y: -50px;
+    }
+    .tBox:nth-of-type(7) .tbg{
+        background-position-y: -50px;
+    }
+    .tBox:nth-of-type(9) .tbg{
+        background-position-y: -50px;
+    }
+    .tBox:nth-of-type(10) .tbg{
+        background-position-y: -50px;
+    }
+
+}
+@media screen and (min-width: 576px) and (max-width:800px) {
+    .card{
+        width: 50% !important;
+        margin: 20px 0;
+    }
+    .tBox{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        width: calc(50% - 40px);
+    }
+    .tbg{
+        width: 55%;
+        position:static;
+    }
+    .tTxt{
+        width: 45%;
+        margin: 0 5px;
+        position:static;
+        text-align:center;
+    }
+
 }
