@@ -46,23 +46,11 @@
         </div>
 
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script><script>
-        $(function(){
-            $('h3').css('text-align','center')
-            $('#classMap').css({
-                'cursor': 'pointer',
-                'color': '#2EA9DF'
-            })
-            $('#classMap').click(function(){
-                window.open("http://learningmap.pccu.edu.tw/"); 
-            })
-            $('.module-sublist').css('color','#fff')
-            $('.module-sublist').hide()
-        })
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
     <script>
       // 選取所有的按鈕
-      var buttons = document.querySelectorAll(".btn");
+      var buttons = document.querySelectorAll(".buttonG .btn");
 
       // 對每一個按鈕添加事件監聽器
       for (var i = 0; i < buttons.length; i++) {
@@ -87,7 +75,12 @@
                 aElement.style.color = "rgb(0, 0, 0)"; // 設定顏色
             }
         });
+
+        // 然後設定 CSS 樣式來防止文字超出範圍
+        buttons[i].style.overflowWrap = "break-word"; // 將過長的文字斷行
+        buttons[i].style.wordBreak = "break-all";     // 在任何字符之間斷行
       }
+      
 
     </script>
     <script>
