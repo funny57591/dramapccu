@@ -236,6 +236,7 @@ section:nth-of-type(1){
         margin: 0 5px;
         position:static;
         text-align:center;
+        transform: translateY(100%);
     }
 
 }
