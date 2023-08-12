@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>必修科目表</title>
+    <link rel="stylesheet" href="css/eStudy.css" />
+    <style>
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="Box">
+        <ul>
+            <li class="box_1 box_1_1">
+              <p><a href="https://dta.pccu.edu.tw/p/404-1229-117627.php?Lang=zh-tw">Introduction</a></p>            
+            </li>
+            <li class="box_1 box_1_2">
+              <p><a href="https://dta.pccu.edu.tw/p/404-1229-117628.php?Lang=zh-tw">Features of education</a></p>            
+            </li>
+            <li class="box_1 box_1_3">
+              <p><a href="https://dta.pccu.edu.tw/p/404-1229-117629.php?Lang=zh-tw">Faculty</a></p>           
+            </li>
+            <li class="box_1 box_1_4">
+              <p><a href="https://dta.pccu.edu.tw/p/404-1229-117630.php?Lang=zh-tw">Courses</a></p>                
+            </li>
+            <li class="box_1 box_1_5">
+              <p><a href="https://dta.pccu.edu.tw/p/404-1229-117631.php?Lang=zh-tw">Scholarships</a></p>                
+            </li>
+            <li class="box_1 box_1_6">
+              <p><a href="https://dta.pccu.edu.tw/p/404-1229-117632.php?Lang=zh-tw">Internship and industry-university cooperation</a></p>                
+            </li>
+            <li class="box_1 box_1_7">
+              <p><a href="https://dta.pccu.edu.tw/p/404-1229-117633.php?Lang=zh-tw">Future</a></p>                
+            </li>
+            <li class="box_1 box_1_8">
+              <p><a href="https://dta.pccu.edu.tw/p/404-1229-117634.php?Lang=zh-tw">Highlight</a></p>                
+            </li>
+        </ul>      
+      </div>
+       
+
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        function dynamicLoadCss(url) {
+          var head = document.getElementsByTagName("head")[0];
+          var mycss = document.createElement("link");
+          mycss.type = "text/css";
+          mycss.rel = "stylesheet";
+          mycss.href = url;
+          head.appendChild(mycss);
+        }
+        if (1 == 1) {
+          // dynamicLoadCss("https://funny57591.github.io/dramapccu/english/css/eStudy.css");
+        }
+      </script>
+      <script>
+        $(function(){
+          $('.box_1').hover(function(){
+            $(this).css('box-shadow','0px 5px 15px')
+            $(this).find('p').css('padding','50% 0')
+          },function(){
+            $(this).css('box-shadow','0px 0px 0px')
+            $(this).find('p').css('padding','20px 0')
+          })
+        })
+      </script>
+  </body>
+</html>

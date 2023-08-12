@@ -1,0 +1,127 @@
+main{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1170px;
+    /* background-color:aqua; */
+}
+#Box li{
+    list-style: none;
+}
+#Box a{
+    text-decoration: none;
+}
+#Box ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.box_1{
+    width: calc(50% - 80px);
+    height: 300px;
+    background-color: rgb(169, 169, 169);
+    margin: 30px 40px;    
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-clip: content-box;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.box_hover{
+    transition: 0.8s;
+    transform: scale(1.1);
+    
+    /* background-size: 110%; */
+}
+.box_1 p{    
+    font-size: 3rem !important;
+    margin: 0;
+    padding: 20px 0;
+    width: 100%;
+    /* line-height: 60px; */
+    text-align: center;
+    text-shadow: 6px;
+    background-color: rgba(28, 28, 28, 0.6);
+    color: white;  
+    transition: all 0.5s ease-in-out;
+
+}
+.box_1 p a{
+    display: block;
+    color: white;
+    height: 100%;
+}
+
+.box_1_1{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/000__0007_01.jpg");      
+}
+.box_1_2{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/000__0006_02.jpg");
+}
+.box_1_3{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/000__0005_03.jpg");
+}
+.box_1_4{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/000__0004_04.jpg");
+}
+.box_1_5{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/000__0003_05.jpg");
+}
+.box_1_6{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/000__0002_06.jpg");
+}
+.box_1_7{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/000__0001_07.jpg");
+}
+.box_1_8{
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/000__0000_08.jpg");
+}
+
+#pageptlist{
+    visibility: hidden;
+    color: #fff;
+}
+
+/* cell phone devices */
+@media screen and (max-width: 576px) {
+    .box_1{
+        width: 100%;
+        height: 200px;
+    }
+    .box_1 p{
+        font-size: 2.5rem !important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:767px) {
+    .box_1 {
+        height: 200px;
+    }
+    .box_1 p{
+        font-size: 2rem !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width:1160px) {
+    .box_1{
+        width: calc(50% - 50px);
+        height: 250px;
+        background-color: rgb(169, 169, 169);
+        margin: 25px ;
+    }
+    .box_1 p{
+        font-size: 2.5rem !important;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1170px) {
+
+    
+}
