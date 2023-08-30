@@ -1,6 +1,8 @@
-body{
-    margin: 0;  
-    padding: 0;
+#body_div{
+    /* background-color: rgb(249, 136, 136); */
+    max-width: 1170px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 video{
     margin: 0;
@@ -15,8 +17,7 @@ video{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     display:flex;
     align-items: center;
     justify-content: center;
