@@ -29,7 +29,7 @@ header .mt:nth-of-type(1)
 #seeMore{
     margin: 0 auto;
     margin-top: 20px;
-    width: 200px;
+    width: 150px;
     text-align: center;
     color: rgb(38, 38, 38);
     font-weight: bold;
@@ -47,8 +47,8 @@ header .mt:nth-of-type(1)
 .arrow-down {
     width: 0;
     height: 0;
-    border-left: 20px solid transparent; /* Left side of arrow */
-    border-right: 20px solid transparent; /* Right side of arrow */
-    border-top: 30px solid rgb(31, 31, 31); /* Base/top of arrow */
+    border-left: 10px solid transparent; /* Left side of arrow */
+    border-right: 10px solid transparent; /* Right side of arrow */
+    border-top: 20px solid rgb(31, 31, 31); /* Base/top of arrow */
     display: inline-block;
 }
