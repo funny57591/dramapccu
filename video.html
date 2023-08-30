@@ -10,12 +10,12 @@
 <body>
 <div class="body_div">
     <div class="video01">
-        <video width="100%" height="" autoplay muted>
+        <video width="100%" height="" autoplay muted loop>
             <source src="https://dta.pccu.edu.tw/var/file/229/1229/img/637494001.mp4" type="video/mp4">
             您的浏览器不支持Video标签。
         </video> 
-        <a href="#aab1a6b70f543042cb245950fef925167_Div" class="seeMore" id="seeMore">More <div class="arrow-down"></div></a>
     </div>
+    <div class="seeMore" id="seeMore">More <div class="arrow-down"></div></div>
             
     <script>
         function dynamicLoadCss(url) {
@@ -52,8 +52,10 @@
             //滾動效果
             var scrollWidth = $('.video01').height() + 200;
             $('#seeMore').click(function() {
+                var targetOffset = $('#aab1a6b70f543042cb245950fef925167_Div').offset().top;
+
                 $('html, body').animate({
-                    scrollTop: $(window).scrollTop() + scrollWidth
+                    scrollTop: targetOffset
                 }, 500); //500 是滾動的持續時間，單位是毫秒
             });
         })
