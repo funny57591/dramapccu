@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/video.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="video01">
+        <video width="1920" height="1080" autoplay muted>
+            <source src="https://dta.pccu.edu.tw/var/file/229/1229/img/637494001.mp4" type="video/mp4">
+            您的浏览器不支持Video标签。
+        </video> 
+        <div class="seeMore" id="seeMore">More <div class="arrow-down"></div></div>
+    </div>
+         
+    <div class="bg"></div>
+        
+    <script>
+        function dynamicLoadCss(url) {
+            var head = document.getElementsByTagName('head')[0];
+            var mycss = document.createElement('link');
+            mycss.type = 'text/css';
+            mycss.rel = 'stylesheet';
+            mycss.href = url;
+            head.appendChild(mycss);
+        }
+        if (1 == 1) {
+            // dynamicLoadCss("https://funny57591.github.io/dramapccu/css/video.css");
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            function animateButtonUp() {
+                $('.arrow-down').animate({
+                    'bottom': '130px'
+                }, 1000, animateButtonDown);
+            }
+
+            function animateButtonDown() {
+                $('.arrow-down').animate({
+                    'bottom': '110px'
+                }, 1000, animateButtonUp);
+            }
+
+            animateButtonUp();
+
+            //滾動效果
+            var scrollWidth = $('.video01').height() + 200;
+            $('#seeMore').click(function() {
+                $('html, body').animate({
+                    scrollTop: $(window).scrollTop() + scrollWidth
+                }, 500); //500 是滾動的持續時間，單位是毫秒
+            });
+        })
+    </script>
+</body>
+</html>
