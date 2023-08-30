@@ -50,6 +50,6 @@ header .mt:nth-of-type(1)
     height: 0;
     border-left: 20px solid transparent; /* Left side of arrow */
     border-right: 20px solid transparent; /* Right side of arrow */
-    border-top: 30px solid rgb(255, 255, 255); /* Base/top of arrow */
+    border-top: 30px solid rgb(31, 31, 31); /* Base/top of arrow */
     display: inline-block;
 }
