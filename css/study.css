@@ -22,7 +22,9 @@ a{
     font-family: 'Noto Sans TC', sans-serif;
 }
 .map{
+    width: 100%;
     text-align: center;
+    margin: 0 auto;
     /* position: relative; */
 }
 .map>div{
