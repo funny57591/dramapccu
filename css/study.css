@@ -25,6 +25,7 @@ a{
     width: 100%;
     text-align: center;
     margin: 0 auto;
+    overflow-x: scroll;
     /* position: relative; */
 }
 .map>div{
