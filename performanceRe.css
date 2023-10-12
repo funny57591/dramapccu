@@ -35,6 +35,7 @@
 @media screen and (max-width: 576px)  {
     .MsoNormalTable{
         width: 100%;
+        transform: scale(0.1);
     }
     .flex_2{
         flex-wrap: wrap;
