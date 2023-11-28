@@ -28,12 +28,12 @@ header .mt:nth-of-type(1)
 }
 #seeMore{
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 12px;
     width: 90px ; 
     text-align: center ;
     color: rgb(38, 38, 38);
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
     border-bottom: 1.5px solid #000000;
     padding-bottom: 15px;
 }
@@ -55,7 +55,7 @@ header .mt:nth-of-type(1)
 
 @media screen and (max-width: 576px) {
     #seeMore{
-        margin-top: 10px;
+        margin-top: 8px;
         transform: scale(0.7);
     }
 }
