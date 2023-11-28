@@ -22,7 +22,10 @@ a{
     font-family: 'Noto Sans TC', sans-serif;
 }
 .map{
+    width: 100%;
     text-align: center;
+    margin: 0 auto;
+    overflow-x: scroll;
     /* position: relative; */
 }
 .map>div{
@@ -61,30 +64,39 @@ a{
 
 /* cell phone devices */
 @media screen and (max-width: 576px) {
+    #map{
+        width: 80%;
+    }
     #map_1{
-        width: 100%;
+        width: 80%;
     }
     #map_2{
-        width: 100%;
+        width: 80%;
     }
 }
 
 @media screen and (min-width: 576px) and (max-width:767px) {
+    #map{
+        width: 85%;
+    }
     #map_1{
-        width: 90%;
+        width: 85%;
     }
     #map_2{
-        width: 90%;
+        width: 85%;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width:1160px) {
+    #map{
+        width: 90%;
+    }
     #map_1{
-        width: 80%;
+        width: 90%;
     }
     #map_2{
-        width: 80%;
+        width: 90%;
     }
 }
 
