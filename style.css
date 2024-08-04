@@ -82,13 +82,15 @@ a{
     height: 100vh;
 } */
 .b_container {
-    background-color: #f5f5f5;
+    /* background-color: #d65d5d; */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    width: 80%;
-    max-width: 900px;
+    /* width: 80%; */
+    /* max-width: 1000px; */
     overflow: hidden;
+    flex-direction: row;
+    /* border: 10px solid #333; */
 }
 .b_image {
     width: 40%;
