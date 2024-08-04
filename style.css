@@ -70,6 +70,62 @@ a{
     background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/DSC_9644(1).jpg");
 }
 
+/*  ---院展---  */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+.b_container {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 80%;
+    max-width: 900px;
+    overflow: hidden;
+}
+.b_image {
+    width: 40%;
+    background-image: url("image/院展海報_tiny.png");
+    background-size: cover;
+    background-position: center;
+}
+.b_content {
+    padding: 20px;
+    width: 60%;
+}
+.b_container h1 {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+.b_container p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #333;
+}
+.b_button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.button:hover {
+    background-color: #555;
+}
+
+/*  ---院展結束---  */
+
 #pageptlist{
     visibility: hidden;
     color: #fff;
