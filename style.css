@@ -86,17 +86,20 @@ a{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    /* width: 80%; */
+    width: 100%;
+    height: 510px;
     /* max-width: 1000px; */
     overflow: hidden;
     flex-direction: row;
     /* border: 10px solid #333; */
+    justify-content: center;
 }
 .b_image {
-    width: 40%;
-    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/749787831.png");
-    background-size: cover;
-    background-position: center;
+    width: 400px;
+    background-image: url("https://dta.pccu.edu.tw/var/file/229/1229/img/760014086.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top center;
 }
 .b_content {
     padding: 20px;
@@ -109,6 +112,7 @@ a{
 .b_container p {
     font-size: 1em;
     line-height: 1.5;
+    margin: 40px 0;
     color: #333;
 }
 .b_button {
