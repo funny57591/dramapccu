@@ -5,6 +5,7 @@ li{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    transform: translateX(20px);
 }
 .buttonG .btn{
     width: calc(50% - 70px);
@@ -39,6 +40,7 @@ li{
     .buttonG ul{
         flex-direction: column;  /* 將主軸方向改為列，讓元件縱向排列 */
         align-items: center;
+        transform: translateX(0);
     }
     .buttonG .btn {
         width: 100%;  
