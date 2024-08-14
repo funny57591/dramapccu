@@ -5,41 +5,41 @@
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.title01 {
+.container_big .title01 {
     text-align: center;
     margin-bottom: 30px;
 }
-.title01 h1 {
+.container_big .title01 h1 {
     margin: 0;
     font-size: 2em;
     color: #000;
 }
-.subtitle {
+.container_big .subtitle {
     text-align: center;
     margin-bottom: 20px;
     font-style: italic;
     color: #555;
 }
-.image-container {
+.container_big .image-container {
     text-align: center;
     margin-bottom: 20px;
 }
-.image-container img {
+.container_big .image-container img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
-.section {
+.container_big .section {
     margin-bottom: 30px;
 }
-.section h2 {
+.container_big .section h2 {
     font-size: 1.5em;
     margin-bottom: 10px;
     color: #000;
     border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
 }
-.section p {
+.container_big .section p {
     margin: 0 0 10px;
 }
 .performance-details {
