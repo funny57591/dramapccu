@@ -43,7 +43,7 @@ body {
     font-size: 1.8em;
     font-weight: bold;
 }
-.section-content.reverse {
+.section-content .reverse {
     flex-direction: row-reverse;
 }
 @media (max-width: 768px) {
