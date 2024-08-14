@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/internation.css">
+    <title>響應式排版頁面</title>
+
+</head>
+<body>
+
+<div class="container">
+    <!-- 研討會 -->
+    <section id="seminar" class="section-content">
+        <h2 class="section-title">研討會</h2>
+        <div class="image">
+            <img src="https://via.placeholder.com/500x300" alt="研討會圖片">
+        </div>
+        <div class="text">
+            <p>研討會是讓學者、專業人士和學生們聚集在一起討論和分享最新研究成果和思想的場合。這是推動知識前沿和思想交流的重要平台。</p>
+        </div>
+    </section>
+
+    <!-- 移地教學 -->
+    <section id="field-study" class="section-content reverse">
+        <h2 class="section-title">移地教學</h2>
+        <div class="image">
+            <img src="https://via.placeholder.com/500x300" alt="移地教學圖片">
+        </div>
+        <div class="text">
+            <p>移地教學是學生走出課堂，親身體驗學習內容的好機會。通過現場觀察和實地考察，學生可以更深入地理解所學的知識。</p>
+        </div>
+    </section>
+
+    <!-- 交換學生 -->
+    <section id="exchange-students" class="section-content">
+        <h2 class="section-title">交換學生</h2>
+        <div class="image">
+            <img src="https://dta.pccu.edu.tw/var/file/229/1229/img/275100213.jpg" alt="交換學生圖片">
+        </div>
+        <div class="text">
+            <p>交換學生計劃為學生提供了在國外學習和生活的寶貴機會，這不僅有助於開闊視野，還能提升語言能力和跨文化溝通技巧。</p>
+        </div>
+    </section>
+
+    <!-- 雙聯學制 -->
+    <section id="dual-degree" class="section-content reverse">
+        <h2 class="section-title">雙聯學制</h2>
+        <div class="image">
+            <img src="https://dta.pccu.edu.tw/var/file/229/1229/img/983352293.png" alt="雙聯學制圖片">
+        </div>
+        <div class="text">
+            <p>雙聯學制允許學生同時在兩所學校註冊並取得兩個學位，這種學制能夠拓展學生的專業知識和國際視野，增加就業競爭力。</p>
+        </div>
+    </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    function dynamicLoadCss(url) {
+        var head = document.getElementsByTagName('head')[0];
+        var mycss = document.createElement('link');
+        mycss.type = 'text/css';
+        mycss.rel = 'stylesheet';
+        mycss.href = url;
+        head.appendChild(mycss);
+    }
+    if (1 == 1) {
+        // dynamicLoadCss("https://funny57591.github.io/dramapccu/css/qa.css");
+    }
+</script>
+
+</body>
+</html>
