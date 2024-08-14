@@ -19,6 +19,7 @@ body {
     border-bottom: 1px solid #333;
     width: 80%;
     margin: 20px auto;
+    padding-bottom: 20px;
 }
 .section-content img {
     width: 100%;
