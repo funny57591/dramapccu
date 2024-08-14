@@ -10,6 +10,10 @@ body {
     margin: 0 auto;
     padding: 20px 0;
 }
+.flex-box{
+    display: flex;
+    align-items: center;
+}
 .section-content {
     display: flex;
     flex-wrap: wrap;
