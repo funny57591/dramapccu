@@ -1,17 +1,68 @@
 <!DOCTYPE html>
-<html lang="zh-tw">
+<html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/academic01.css">
+    <title>圖片展示頁面</title>
 </head>
 <body>
-    <div>
-        <ul>
-            <li>教師著作</li>
-            <li>教師展演作品</li>
-            <li>歷屆研討會</li>
-        </ul>
+
+<div class="container-box">
+    <div class="circle-container">
+        <div class="title">教師著作</div>
+        <img src="https://dta.pccu.edu.tw/var/file/229/1229/img/198370678.png" alt="教師著作">
     </div>
+    <div class="circle-container">
+        <div class="title">教師展演作品</div>
+        <img src="https://dta.pccu.edu.tw/var/file/229/1229/img/638656161.jpg" alt="教師展演作品">
+    </div>
+    <div class="circle-container">
+        <div class="title">歷屆研討會</div>
+        <img src="https://dta.pccu.edu.tw/var/file/229/1229/img/146857482.jpg" alt="歷屆研討會">
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+    function dynamicLoadCss(url) {
+        var head = document.getElementsByTagName('head')[0];
+        var mycss = document.createElement('link');
+        mycss.type = 'text/css';
+        mycss.rel = 'stylesheet';
+        mycss.href = url;
+        head.appendChild(mycss);
+    }
+    if (1 == 1) {
+        // dynamicLoadCss("https://funny57591.github.io/dramapccu/css/academic01.css");
+    }
+</script>
+<script>
+    // 等待DOM加載完成
+    document.addEventListener('DOMContentLoaded', function () {
+        // 選取所有 .circle-container 元素
+        var circles = document.querySelectorAll('.circle-container');
+        
+        // 為每個 .circle-container 添加點擊事件
+        circles.forEach(function(circle) {
+            circle.addEventListener('click', function() {
+                var title = this.querySelector('.title').textContent;
+
+                // 根據 title 設置不同的跳轉網址
+                if (title === '教師著作') {
+                    window.location.href = 'https://example.com/teacher-works'; // 替換為真實網址
+                } else if (title === '教師展演作品') {
+                    window.location.href = 'https://example.com/teacher-performances'; // 替換為真實網址
+                } else if (title === '歷屆研討會') {
+                    window.location.href = 'https://example.com/conferences'; // 替換為真實網址
+                }
+            });
+        });
+    });
+</script>
+
 </body>
 </html>
